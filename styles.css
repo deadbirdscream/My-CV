@@ -1,0 +1,113 @@
+body {
+  color: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.cv {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+a {
+  color: rgb(228, 228, 228);
+  text-decoration: none;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+.avatar {
+  width: 300px;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  border-radius: 20px;
+
+
+}
+
+.info {
+  display: flex;
+  margin: 10px 0px 15px 0px;
+}
+
+.purpose {
+  background-color: transparent;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.hobby {
+  background-color: transparent;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.learning {
+  background-color: transparent;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.work {
+  background-color: transparent;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.connect {
+  background-color: transparent;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
