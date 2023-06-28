@@ -1,0 +1,59 @@
+@import "./animation.css";
+
+body {
+  color: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cv {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+
+a {
+  color: rgb(228, 228, 228);
+  text-decoration: none;
+  font-weight: 600;
+  font-style: oblique;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid  transparent;
+}
+
+a:hover {
+  border-bottom: 1px solid  rgb(228, 228, 228);
+}
+
+.common {
+  background-color: transparent;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 300px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.info {
+  display: flex;
+  margin: 10px 0px 15px 0px;
+}
+
+.purpose {
+  margin-left: 30px;
+}
