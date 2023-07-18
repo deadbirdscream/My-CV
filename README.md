@@ -1,2 +1,2 @@
 # my-cv
-link - https://septmeber23.github.io/my-cv
+link - https://septemberonfire.github.io/my-cv
